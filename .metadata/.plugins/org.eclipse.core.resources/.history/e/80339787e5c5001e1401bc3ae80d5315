@@ -1,0 +1,37 @@
+package operators;
+
+import java.util.Scanner;
+
+public class Operadores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Scanner read = new Scanner(System.in);
+		
+		double salario;
+		double abono;
+		double novoSalario;
+		
+		
+		System.out.printf("Informe o salario:\n");
+		salario = read.nextDouble();
+		System.out.printf("Agora Informe o abono:\n");
+		abono = read.nextDouble();
+		System.out.printf("Processando :\n");
+		novoSalario = abono + salario;
+		System.out.printf("Seu 'novo salario ' é: " + novoSalario + "/n");
+		
+		
+		System.out.printf("---------------------------");
+		
+		
+		
+		
+		
+
+		
+	}
+
+}

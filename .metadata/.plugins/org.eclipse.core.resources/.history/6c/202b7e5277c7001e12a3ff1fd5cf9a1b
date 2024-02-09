@@ -1,0 +1,24 @@
+package DoWhile;
+
+import java.util.Scanner;
+public class whiles {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner read = new Scanner(System.in);
+		
+		int age = 0;
+		
+		while (age >= 0) {
+			System.out.println("Digite uma idade");
+			age = read.nextInt();
+			
+		}
+		
+		
+		
+
+	}
+
+}

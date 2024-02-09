@@ -1,0 +1,34 @@
+package Condições;
+
+import java.util.Scanner;
+
+public class switchCase {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner read = new Scanner(System.in);
+			
+		int numberIn;
+		System.out.printf("Insira o numero negativo ou positivo : ");
+		numberIn = read.nextInt();
+		
+		//int positivoNegativo = (numberIn ?)
+		String parImpar = (numberIn % 2 == 0 ? "Numero é par" : "Numero nao é par");
+		
+		System.out.printf(parImpar);
+		
+		
+		
+		
+		
+		//numberIn > 0 ? numberIn % 2 
+		
+		
+		
+		
+		
+	}
+
+}

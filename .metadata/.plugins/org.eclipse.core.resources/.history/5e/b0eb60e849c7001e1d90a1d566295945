@@ -1,0 +1,61 @@
+package Condições;
+
+import java.util.Scanner;
+
+public class ifElse2 {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner read = new Scanner(System.in);
+			
+		int numberIn;
+		System.out.printf("Insira o numero negativo ou positivo : ");
+		numberIn = read.nextInt();
+		
+		boolean positivoNegativo = (numberIn > 0 ? true : false);
+		String parImpar = (numberIn % 2 == 0 ? "Numero é par" : "Numero não é par");
+		
+		// 					false 			verdade                         pula					(exite / verdade)		
+		String result = (positivoNegativo && parImpar == "Numero é par" ? "Numero é par e positivo" : positivoNegativo ?
+				//Se for verdade		"senao false "
+				"O numero é positivo e impar" :
+					//(verifica se numero par é par) 
+					parImpar != "Numero é par" ? 
+							//Se for verdade
+							"O numero é impar e negativo"  :
+								//Se for falso
+								" O numero é negativo e par");
+		
+	 // result = 
+			//verdade          verdade
+		if(positivoNegativo && parImpar == "Numero não é par") {
+			System.out.printf("Numero é par e positivo");
+			//Aqui vai ver se as duas condiçoes sao verdadeira
+			//Primeira condição : positivoNegativo = true(verdade/positivo);
+		//Segunda Condição : parIMpar = true(verdade/Par);
+		//------------------------------------------------------------
+		//	pode ser visto de duas formas
+				//(verdade / existe) 
+		} if else (positivoNegativo) { 
+			System.out.printf("Numero é impar e par");
+			//Se for verdade, quer dizer que o numero é positivo, e atendeu a primeira condição
+			//Se for False (mentira), quer dizer que a segunda condiçao foi atendida.
+			//----------------------------------------------------------------
+			
+			//		(verdade / existe...... verdade = par / false = impar)
+		} if else (parImpar != "Numero é par") {
+			System.out.printf("O numero é impar e negativo");
+			//Se for verdade. quer dizer que atende a segunda condiçao, mas nao a primeira..
+			// quer dizer que o numero é par e negativo
+			
+		} else {
+			System.out.printf(" O numero é negativo e par");
+		
+	}
+			
+		
+	}
+
+}

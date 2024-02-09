@@ -1,0 +1,38 @@
+package DoWhile;
+
+import java.util.Scanner;
+
+public class DoWhileFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner read = new Scanner(System.in);
+		
+		int[] nArray = new int[10];
+		
+		
+		for(int i = 0; i <= 9; i++ ) {
+			System.out.print("Digite o " + (i + 1)+ "°" +  " Numero");
+			 int n1 = read.nextInt(); 
+			nArray[i] = n1;
+			
+			
+			if(i == 9) {
+				
+				System.out.println(nArray);
+			}
+			
+		}
+		
+		
+		//if(n1 % 2 == 0) {
+			
+		//}
+		
+		
+	
+
+	}
+
+}

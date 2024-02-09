@@ -1,0 +1,10 @@
+package Turma72;
+
+public class MyFirstAplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
