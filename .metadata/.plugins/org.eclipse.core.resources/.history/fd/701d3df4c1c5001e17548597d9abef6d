@@ -1,9 +1,0 @@
-package Turma72;
-
-public class VariaveisJavaerules {
-	char letra = 'A'; // delimita caracteres individuais
-	String nome = "Java"; //delimita conjuto de caracteres 
-
-	double numeroReal = 3.1415; //precisão maior.
-	float numeroReala = 8.6756f; //precisao simples
-}
